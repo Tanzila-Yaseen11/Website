@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gupter:wght@400;500;700&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+h3{
+   
+    font-size: 30px;
+    font-weight: 700;
+}
+span{
+   
+    font-size: 30px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main{
+    font-size: 25px;
+
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.container2{
+    margin-top: 10px;
+}
+.card{
+    transition: all 0.3s;
+}
+.card:hover{
+     transform: scale(1.15);
+}
+.nav-link{
+    transition: all 0.2s;
+}
+.nav-link:hover {
+     /* text-decoration: underline; */
+     border-bottom: 2px solid red;
+
+}
+.s1 {
+    padding: 80px 13% 70px;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    gap: 3.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+}
+
+.footer-content h4 {
+    color: black;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+.footer-content li {
+    margin-bottom: 16px;
+    list-style-type: none;
+}
+
+.footer-content li a {
+    display: block;
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+    transition: all .40s ease;
+    text-decoration: none;
+}
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: #000;
+}
+
+.footer-content p {
+   
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+    font-weight: 200;
+}
+
+.fig {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 1em;
+}
+.btn1{
+    height: 40px;
+    width: 40pxpx;
+   
+    background-color: rgb(0,0,0);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: all ease 0.4s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 9;
+}
+.btn1::after{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 90px;
+    background-color: #ed1c24;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+    z-index: -1;
+
+}
+.btn1:hover::after{
+    bottom: 0;
+    border-radius: 0;
+
+}
+.btn1:hover{
+    border: 2px solid black;
+    color: rgb(0, 0, 0) ;  
+}
+
+
